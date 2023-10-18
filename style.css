@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+#main{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpaperaccess.com/full/884535.jpg);
+    background-size: cover;
+    position: relative;
+  
+}
+
+
+
+@keyframes opc {
+    
+    0%{
+        opacity: 0%;
+        margin-top: 110%;
+    }
+    100%{
+        opacity: 100%;
+        margin-top: 0%;
+    }
+}
+
+
+
+
+
+#nav{
+    padding: 1px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+       
+    
+
+    
+    font-family: aquire;
+    font-weight: 100;
+    letter-spacing: 2px;  
+
+}
+
+
+
+
+a:hover{
+    color: rgb(233, 22, 22);
+    font-size: 22px;
+    scale: 1.3;
+    
+}
+
+
+
+i:hover{
+    color: rgb(233, 22, 22);
+    font-size:25px;
+ 
+}
+
+
+#nav1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    
+}
+
+
+#nav1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    
+
+    animation-name: side;
+    animation-duration: 2s;
+
+}
+
+
+@keyframes side{
+
+    0%{
+        left: 110%;
+    }
+    50%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+#nav2 img{
+    position: absolute;
+    width: 100px;
+    left: 45%;
+    top: 15px;
+
+    animation-name: zoom;
+    animation-duration: 1s;
+
+    animation-fill-mode: forwards;
+
+   
+}
+
+
+@keyframes zoom {
+    
+    0%{
+        scale: 10000%;
+        top: 900px;
+    }
+    100%{
+        scale: 100%;
+        top: 15px;
+    }
+}
+
+
+
+#nav3{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+    animation-name: side2;
+    animation-duration: 2s;
+
+    
+    
+}
+
+@keyframes side2 {
+
+    0%{
+        left: 110%;
+        
+    }
+    50%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+#nav3 a{
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+
+#nav3 i{
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+
+#nav3 button{
+    justify-content: center;
+    align-items: center;    
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: rgb(184, 4, 4);
+    border-radius: 60px;
+
+    animation-name: but;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes but {
+    0%{
+        scale: 0;
+        
+    }
+    
+    100%{
+        scale: 1;
+    }
+}
+
+
+#middle {
+    position: relative;
+    margin-top: 260px;
+    padding: 30px;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: bebas neue;
+    font-weight: 100;
+    letter-spacing:10px;
+    color:rgb(122, 5, 5);
+
+
+
+
+
+    
+}
+
+
+#middle h1{
+    position: relative;
+    
+       
+    background: linear-gradient(90deg,rgb(255, 0, 0),rgb(0, 0, 0),rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    animation-name: ha;
+    animation-duration: 2s;
+
+}
+
+
+@keyframes ha {
+    
+    0%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+#middle h5{
+    position: relative;
+    color: rgb(116, 116, 116);
+
+    animation-name: hb;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes hb{
+    
+    0%{
+        left: 110%;
+    }
+    20%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+#middle h3{
+    position: relative;
+    color: rgb(164, 164, 164);
+
+    animation-name: hc;
+    animation-duration: 2s;
+}
+
+
+@keyframes hc {
+    
+    0%{
+        left: 110%;
+    }
+    40%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+#middle i{
+    position: relative;
+    color: red;
+
+    animation-name: ii;
+    animation-duration: 2s;
+}
+
+
+@keyframes ii {
+    0%{
+        left: 110%;
+    }
+    60%{
+        left: 110%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+#middle button{
+    position: relative;
+    left: -270px;
+    top: 35px;
+    background-color: rgba(255, 0, 0, 0.565);
+    padding: 5px 10px;
+
+    animation-name: bu;
+    animation-duration: 2s;
+}
+
+
+#middle button:hover{
+
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+@keyframes bu {
+    0%{
+        left: 110%;
+    }
+    70%{
+        left: 110%;
+    }
+    100%{
+        left: -270px;
+    }
+}
+
+
+#cards{
+    overflow-x: auto;
+    display: flex;
+    height: 190px;
+    width: 190%;
+    margin-left: 25%;
+    position: absolute;
+    top: 470px;
+    gap: 10px;
+    overflow-y: hidden;
+    animation-name: cards; 
+    animation-duration: 7s;
+    flex-shrink: 0;
+}
+
+
+@keyframes cards {
+    0%{ 
+        right: 120%;
+    }
+    30%{
+        right: 120%;
+    }
+    100%{
+        right: -115%;
+        
+    }
+    
+}
+
+
+img:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+
+#cards::-webkit-scrollbar{
+    display: none;
+}
+
+
+#cards::-webkit-scrollbar{
+    display: none;
+}
+
+
+#card1>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+
+#card2>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+
+#card3>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card4>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card5>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card6>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card7>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card8>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card9>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card10>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card11>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card12>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card13>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#card14>img{
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    
+    padding: 2px;
+    padding-top: 19px;
+    width: 170px;
+    border-radius: 25px;
+}
